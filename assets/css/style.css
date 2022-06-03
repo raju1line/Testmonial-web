@@ -65,6 +65,9 @@ body {
   padding: 9px 16px;
   color: #888;
 }
+.main-manue a:hover{
+  color: #ee466e;
+}
 input[type="url"] {
   border: 1px solid #888;
   padding: 10px 14px;
@@ -222,7 +225,7 @@ h5 {
   text-align: center;
   margin-bottom: 75px;
 }
-.price-conten ul li {
+.price-conten li {
   list-style: none;
 }
 .price-conten {
@@ -249,8 +252,75 @@ h5 {
 }
 .price-conten .box-button {
   line-height: 1.6;
+  margin-top: 15px;
 }
 
-.single-price-box:hover .perice-heading{
+.single-price-box:hover {
   border-color: #ee466e;
+}
+.single-price-box:hover .perice-heading {
+  border-color: #ee466e;
+}
+.single-logo-item {
+  display: table;
+  height: 100px;
+}
+.logo-item-inner {
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+.logo-item-inner:hover {
+  opacity: 1;
+}
+.footer {
+  background-color: #fdfdfd;
+  margin-bottom: 50px;
+}
+.footer,
+.footer a {
+  color: #9999;
+  list-style: none;
+  line-height: 2;
+}
+.email-subcribe-form {
+  margin-bottom: 20px;
+}
+.email-subcribe-form input[type="email"] {
+  width: 60%;
+  border: none;
+  background-color: #f6f6f6;
+  padding: 1px;
+  padding: 3px 9px;
+  margin-right: -3px;
+}
+.email-subcribe-form input[type="submit"] {
+  width: 37%;
+  padding: 2px;
+  border-radius: 0;
+}
+.social-link li {
+  display: inline-block;
+  width: 35%;
+}
+.social-link i {
+  color: black;
+  margin-right: 3px;
+}
+.social-link a {
+  text-decoration: none;
+}
+.social-link a:hover {
+  color: #ef476f;
+}
+.social-link:hover a,
+.social-link:hover i {
+  color: #ef476f;
+}
+.copy-right {
+  color: #9999;
+  background-color: #f7f7f7;
+  padding: 10px;
 }
