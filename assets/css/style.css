@@ -26,7 +26,6 @@
 }
 h2 {
   font-size: 28px;
-  line-height: 37px;
 }
 h1,
 h2,
@@ -312,15 +311,55 @@ h5 {
 .social-link a {
   text-decoration: none;
 }
-.social-link a:hover {
+.social-link li:hover a, .social-link li:hover i {
   color: #ef476f;
 }
-.social-link:hover a,
+/* .social-link:hover a,
 .social-link:hover i {
   color: #ef476f;
-}
+} */
 .copy-right {
   color: #9999;
   background-color: #f7f7f7;
   padding: 10px;
+}
+.hero-form {
+  background-color: #fff;
+  padding: 31px;
+  color: #333;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+.hero-form:after {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1;
+  opacity: 0.2;
+  border-radius: 5px;
+}
+.hreo-header {
+  font-size: 14px;
+  text-align: center;
+  margin: 30px;
+}
+.hreo-header h4 {
+  font-size: 24px;
+  margin: 0;
+}
+.hero-form input {
+  width: 100%;
+  padding: 8px;  
+  border: 1px solid #999;
+  outline: none;
+}
+.hero-form input[type="submit"] {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
 }
